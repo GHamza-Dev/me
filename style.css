@@ -63,19 +63,43 @@ body {
 
 .link {
   display: inline-block;
-  margin: 10px 15px;
-  padding: 10px 20px;
+  margin: 10px 20px;
+  padding: 12px 25px;
   color: #fff;
-  background: #4b6cb7;
-  border-radius: 30px;
+  background-color: #4b6cb7;
+  /* border-radius: 30px; */
   text-decoration: none;
-  font-size: 1rem;
-  transition: background 0.3s ease, transform 0.3s ease;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .link:hover {
-  background: #6c5ce7;
+  opacity: 0.9;
   transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(106, 90, 205, 0.3); /* Soft shadow on hover */
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.link:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.link:active {
+  transform: translateY(1px); /* Slightly moves the link down when clicked */
 }
 
 /* Custom Scrollbar */
