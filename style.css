@@ -144,26 +144,6 @@ a {
   padding-bottom: 64px;
 }
 
-.status {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.85rem;
-  color: var(--muted);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 4px 12px;
-  margin-bottom: 24px;
-}
-
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #22c55e;
-  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.2);
-}
-
 .hero h1 {
   font-size: clamp(2.2rem, 5vw, 3.5rem);
   font-weight: 700;
