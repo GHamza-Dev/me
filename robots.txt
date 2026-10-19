@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gassai-hamza.vercel.app/sitemap.xml
