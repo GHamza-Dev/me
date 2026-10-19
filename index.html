@@ -4,33 +4,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | GASSAI HAMZA</title>
+    <title>Hamza Gassai | Full-Stack Web Engineer</title>
+    <meta name="description"
+        content="Hamza Gassai — full-stack web engineer building web applications end to end with Java Spring Boot, Angular and React, from API to deployment.">
+    <meta property="og:title" content="Hamza Gassai | Full-Stack Web Engineer">
+    <meta property="og:description"
+        content="Web applications built end to end: Spring Boot APIs, Angular & React interfaces, Linux deployment.">
+    <meta property="og:image" content="gassai-hamza.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="profile">
-            <img src="gassai-hamza.jpeg" alt="Gassai Hamza" class="profile-pic">
-            <h1 class="name">GASSAI HAMZA</h1>
-            <h2 class="role">Full Stack Web Developer</h2>
+    <header class="nav">
+        <div class="wrap nav-inner">
+            <a href="#top" class="logo">hamza<span>.dev</span></a>
+            <nav class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#stack">Stack</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-        <div class="bio">
-            <p>
-                I am a passionate Full Stack Web Developer with expertise in building dynamic and responsive web
-                applications. Currently working as a Junior Engineer, I specialize in front-end development
-                with Angular and React, and back-end development with Java Spring Boot. I focus on creating efficient
-                APIs, enhancing UI/UX, and automating tasks with scripts. I also have experience in microservices,
-                databases (MySQL, PostgreSQL), and dev tools like Docker and Git.
-            </p>
-        </div>
-        <div class="links">
-            <a href="https://github.com/ghamza-dev" target="_blank" class="link">GitHub</a>
-            <a href="https://linkedin.com/in/hamza-gassai" target="_blank" class="link">LinkedIn</a>
-            <a href="mailto:gassai.hamza@gmail.com" class="link">Email</a>
-            <a href="https://potatoes.hashnode.dev" class="link">My Blog</a>
-        </div>
-    </div>
+    </header>
+
+    <main id="top">
+        <!-- Hero -->
+        <section class="hero wrap">
+            <div class="hero-text">
+                <p class="status"><span class="dot"></span>Available for new projects</p>
+                <h1>I build web applications <span class="accent">end to end.</span></h1>
+                <p class="lead">
+                    Hi, I'm <strong>Hamza Gassai</strong> — a full-stack web engineer based in Casablanca, Morocco.
+                    I design, build and ship reliable web products: from the database and API
+                    to the interface your users touch, all the way to production.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn">Start a project</a>
+                    <a href="#services" class="btn btn-ghost">See what I do</a>
+                </div>
+                <ul class="facts">
+                    <li><strong>4+</strong> years building production apps</li>
+                    <li><strong>Java · Angular · React</strong></li>
+                    <li><strong>Remote</strong> friendly</li>
+                </ul>
+            </div>
+            <div class="hero-visual">
+                <img src="gassai-hamza.jpeg" alt="Portrait of Hamza Gassai" class="avatar">
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="section wrap">
+            <p class="eyebrow">Services</p>
+            <h2>How I can help</h2>
+            <div class="grid grid-3">
+                <article class="card">
+                    <div class="icon">⌘</div>
+                    <h3>Full-stack web apps</h3>
+                    <p>Complete web applications built from scratch — dashboards, admin panels, internal tools and
+                        customer-facing platforms.</p>
+                </article>
+                <article class="card">
+                    <div class="icon">{ }</div>
+                    <h3>APIs &amp; back-end</h3>
+                    <p>Secure, well-structured REST APIs and services with Java Spring Boot, microservices and
+                        async messaging.</p>
+                </article>
+                <article class="card">
+                    <div class="icon">◐</div>
+                    <h3>Front-end &amp; UI/UX</h3>
+                    <p>Fast, responsive interfaces in Angular or React with Tailwind — or a redesign of an
+                        existing app that feels dated.</p>
+                </article>
+                <article class="card">
+                    <div class="icon">⛁</div>
+                    <h3>Databases &amp; migrations</h3>
+                    <p>Schema design, query optimisation and safe legacy-to-modern data migrations, with clear
+                        reports at every step.</p>
+                </article>
+                <article class="card">
+                    <div class="icon">⚿</div>
+                    <h3>Auth &amp; security</h3>
+                    <p>Login, roles and permissions done right with Spring Security and Keycloak (SSO, OAuth2,
+                        role-based access).</p>
+                </article>
+                <article class="card">
+                    <div class="icon">▲</div>
+                    <h3>Deployment &amp; maintenance</h3>
+                    <p>Docker, Linux servers, Nginx and CI with Jenkins — plus ongoing bug fixing and support
+                        once you're live.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Stack -->
+        <section id="stack" class="section wrap">
+            <p class="eyebrow">Tech stack</p>
+            <h2>Tools I work with</h2>
+            <div class="grid grid-2">
+                <div class="stack-group">
+                    <h3>Back-end</h3>
+                    <ul class="tags">
+                        <li>Java</li><li>Spring Boot</li><li>Spring Security</li><li>Spring MVC</li>
+                        <li>Hibernate / JPA</li><li>Microservices</li><li>REST APIs</li><li>JUnit</li>
+                        <li>Thymeleaf</li>
+                    </ul>
+                </div>
+                <div class="stack-group">
+                    <h3>Front-end</h3>
+                    <ul class="tags">
+                        <li>TypeScript</li><li>JavaScript</li><li>Angular</li><li>Angular Material</li>
+                        <li>React</li><li>Tailwind CSS</li><li>Sass</li><li>HTML5 / CSS3</li>
+                    </ul>
+                </div>
+                <div class="stack-group">
+                    <h3>Data</h3>
+                    <ul class="tags">
+                        <li>PostgreSQL</li><li>MySQL</li><li>SQL Server</li><li>Oracle</li>
+                        <li>RabbitMQ</li><li>Python scripting</li>
+                    </ul>
+                </div>
+                <div class="stack-group">
+                    <h3>DevOps &amp; tooling</h3>
+                    <ul class="tags">
+                        <li>Docker</li><li>Linux</li><li>Nginx</li><li>Jenkins</li><li>Keycloak</li>
+                        <li>Maven</li><li>npm</li><li>Git / GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work -->
+        <section id="work" class="section wrap">
+            <p class="eyebrow">Selected work</p>
+            <h2>Things I've built</h2>
+            <div class="grid grid-2">
+                <article class="card project">
+                    <h3>Enterprise web applications</h3>
+                    <p>Business applications built with Java Spring Boot and Angular, secured with Keycloak
+                        (SSO, roles and permissions) and connected through REST APIs and RabbitMQ.</p>
+                </article>
+                <article class="card project">
+                    <h3>Admin dashboards &amp; internal tools</h3>
+                    <p>Clean, responsive dashboards and back-office tools in Angular or React that help teams
+                        manage users, data and day-to-day operations.</p>
+                </article>
+                <article class="card project">
+                    <h3>Reporting &amp; automation</h3>
+                    <p>Report generation with Spring Boot and Thymeleaf, plus Python and shell scripts that turn
+                        manual, repetitive work into reliable background jobs.</p>
+                </article>
+                <article class="card project">
+                    <h3>Data migrations &amp; deployments</h3>
+                    <p>Legacy-to-modern data migrations across PostgreSQL, Oracle and SQL Server, and production
+                        deployments on Linux servers with Docker and Nginx.</p>
+                </article>
+                <article class="card project">
+                    <h3>Drone imagery to map pipeline</h3>
+                    <p>A complete pipeline that turns raw drone photos into maps: geotagging and image preparation
+                        with Python and ExifTool, then photogrammetry processing in WebODM running in Docker.</p>
+                </article>
+                <article class="card project">
+                    <h3>Geodata storage &amp; map presentation</h3>
+                    <p>Geospatial data stored and queried in PostgreSQL, served through a Java Spring Boot API and
+                        presented on interactive maps in an Angular dashboard.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section class="section wrap">
+            <p class="eyebrow">Process</p>
+            <h2>How we'll work together</h2>
+            <ol class="steps">
+                <li><span>01</span><h3>Discover</h3><p>We talk through your goals, users and constraints.</p></li>
+                <li><span>02</span><h3>Plan</h3><p>Clear scope, architecture and timeline — no surprises.</p></li>
+                <li><span>03</span><h3>Build</h3><p>Regular demos so you see progress every week.</p></li>
+                <li><span>04</span><h3>Launch</h3><p>Deployment, handover and support after go-live.</p></li>
+            </ol>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section wrap">
+            <div class="contact">
+                <h2>Get in touch</h2>
+                <p>Send me a message about your project, or reach me directly by email.</p>
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8fb10703-992f-4857-babd-a0d79a56f528">
+                    <input type="hidden" name="subject" value="New message from your portfolio">
+                    <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off">
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+                    <button type="submit" class="btn">Send message</button>
+                </form>
+                <p class="contact-alt">or email <a href="mailto:gassai.hamza@gmail.com">gassai.hamza@gmail.com</a></p>
+                <div class="socials">
+                    <a href="https://github.com/ghamza-dev" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com/in/hamza-gassai" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://medium.com/@hamzagassai" target="_blank" rel="noopener">Medium</a>
+                    <a href="https://dev.to/gassaihamza" target="_blank" rel="noopener">DEV</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer wrap">
+        <p>© <span id="year">2026</span> Hamza Gassai · Casablanca, Morocco</p>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 
 </html>
